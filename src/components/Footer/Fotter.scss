@@ -1,0 +1,37 @@
+.footer {
+  // position: absolute;
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 986px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  gap: 13px;
+  margin-top: 20%;
+}
+
+.line {
+  width: 986px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #ced4da;
+}
+
+.made {
+    width: max-content;
+  color: #6c757d;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; 
+  margin: 0 auto;
+  transition: 1s;
+}
+
+
+.made:hover {
+  transform:translateX(20px);
+  transform:translateZ(12px);
+}

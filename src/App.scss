@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.main {
+  min-height: 300px;
+  padding-top: 60px;
+  justify-content: center;
+}
+
+.cards__cont {
+  display: flex;
+  margin: 0 auto;
+  max-width: 80%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
