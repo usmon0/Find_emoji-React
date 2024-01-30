@@ -1,6 +1,6 @@
 import "./App.scss";
 import { Fotter } from "./components/Footer/Fotter";
-import { Header } from "./components/header/Header";
+import { Header } from "./components/Header/Header";
 import { data } from "./assets/Emoji/emoji";
 import { Card } from "./components/Card/Card";
 import { useState } from "react";
