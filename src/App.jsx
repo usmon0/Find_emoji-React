@@ -1,7 +1,7 @@
 import "./App.scss";
 import { Fotter } from "./components/Footer/Fotter";
 import { Header } from "./components/Header/Header";
-import { data } from "./assets/Emoji/emoji";
+import { data } from "./assets/Emoji/Emoji";
 import { Card } from "./components/Card/Card";
 import { useState } from "react";
 import { objEmoji } from "./assets/Emoji/emojIco";
